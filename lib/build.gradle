@@ -1,0 +1,68 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+
+    api lib.gson
+    api lib.chuck
+    api lib.timber
+    api lib.dagger
+    api lib.jsr305
+    api lib.rxjava
+    api lib.inject
+    api lib.okhttp3
+    api lib.rxRelay
+    api lib.retrofit
+    api lib.appState
+    api lib.rxandroid
+    api lib.okhttp3Log
+    api lib.rxLocation
+    api lib.netSecurity
+    api lib.reprintCore
+    api lib.threeTenAbp
+    api lib.retrofitGson
+    api lib.androidDesign
+    api lib.reprintRxJava2
+    api lib.jetAnnotations
+    api lib.replayingShare
+    api lib.javaxAnnotation
+    api lib.rxjava2AppState
+    api lib.androidCompatV7
+    api lib.naturalComparator
+    api lib.androidAnnotations
+    api lib.okhttpUrlconnection
+    api lib.googlePlayServiceBase
+    api lib.retrofit2AdapterRxJava2
+    api lib.googlePlayServiceLocation
+
+
+    testImplementation lib.commonsIO
+    testImplementation lib.truth
+    testImplementation lib.jUnitParams
+    testImplementation lib.junit
+    testImplementation lib.mockito
+    testImplementation lib.jetAnnotations
+    testImplementation lib.okhttp3Mockwebserver
+    testImplementation lib.mockWebServer
+    testImplementation lib.assertj
+    testImplementation lib.guava
+    testImplementation lib.firebaseAdmin
+}

@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation lib.commonsIO
+    implementation lib.truth
+    implementation lib.jUnitParams
+    implementation lib.junit
+    implementation lib.mockito
+    implementation lib.jetAnnotations
+    implementation lib.okhttp3Mockwebserver
+    implementation lib.mockWebServer
+    implementation lib.assertj
+    implementation lib.guava
+    implementation lib.firebaseAdmin
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
