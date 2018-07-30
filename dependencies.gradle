@@ -55,6 +55,8 @@ ext {
     autoValueGsonVersion = '0.6.0'
     autoValueWithVersion = '1.0.0'
     autoValueParcelVersion = '0.2.5'
+    securePrefStoreVersion = '0.7.3'
+
 
     barcodeScannerVisionVersion = '1.9.9.1'
 
@@ -177,6 +179,7 @@ ext {
             materialDialog           : "com.afollestad.material-dialogs:core:${materialDialogVersion}",
             rxandroid                : "io.reactivex.rxjava2:rxandroid:${rxandroidVersion}",
             constraintLayout         : "com.android.support.constraint:constraint-layout:${constraintLayoutVersion}",
+            securePrefStore          : "online.devliving:securedpreferencestore:${securePrefStoreVersion}",
 
 
             okio                     : "com.squareup.okio:okio:${okIoVersion}",

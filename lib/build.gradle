@@ -45,6 +45,7 @@ dependencies {
     api lib.replayingShare
     api lib.javaxAnnotation
     api lib.rxjava2AppState
+    api lib.securePrefStore
     api lib.androidCompatV7
     api lib.naturalComparator
     api lib.androidAnnotations
