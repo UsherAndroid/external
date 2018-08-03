@@ -23,8 +23,7 @@ dependencies {
 
     api lib.rxPreferences
     api lib.gson
-    debugApi lib.chuck
-    releaseApi lib.chuckNoOp
+    api lib.chuckNoOp
     api lib.timber
     api lib.dagger
     api lib.jsr305
