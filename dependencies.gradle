@@ -38,7 +38,7 @@ ext {
     betterLinkVersion = '2'
     leakCanaryVersion = '1.6-SNAPSHOT'
     textviewRichDrawableVersion = '0.3.2'
-    chuckVersion = '1.2.5'
+    chuckVersion = '1.2.6'
     rxlocationVersion = '1.0.3'
     okIoVersion = '1.13.0'
     ahbottomnavigationVersion = '2.1.0'
@@ -65,6 +65,7 @@ ext {
     androidImageCropperVersion = '2.5.1'
     rxBindingVersion = '2.1.1'
     expandableLayoutVersion = '1.6.0@aar'
+    rxPreferencesVersion = '2.0.0'
     //Testing libraries
     //**
     //**
@@ -106,6 +107,7 @@ ext {
             autoValueParcel          : "com.ryanharter.auto.value:auto-value-parcel:${autoValueParcelVersion}",
             autoValueGson            : "com.ryanharter.auto.value:auto-value-gson:${autoValueGsonVersion}",
             autoValueIgnore          : "com.github.reggar:auto-value-ignore-hash-equals:${autoValueIgnoreVersion}",
+            rxPreferences            : "com.f2prateek.rx.preferences2:rx-preferences:${rxPreferencesVersion}",
 
             appState                 : "com.jenzz.appstate:appstate:${rxAppStateVersion}",
             threeTenAbp              : "com.jakewharton.threetenabp:threetenabp:${threeTenAbpVersion}",
@@ -130,6 +132,7 @@ ext {
             rxjava2AppState          : "com.jenzz.appstate:adapter-rxjava2:${rxAppStateVersion}",
             rxRelay                  : "com.jakewharton.rxrelay2:rxrelay:${rxRelayVersion}",
             chuck                    : "com.github.TonyTangAndroid.chuck:library:${chuckVersion}",
+            chuckNoOp                : "com.github.TonyTangAndroid.chuck:library-no-op:${chuckVersion}",
             androidBeaconLibrary     : "org.altbeacon:android-beacon-library:${androidBeaconLibraryVersion}",
             reprintCore              : "com.github.ajalt.reprint:core:${reprintVersion}",
             rxLocation               : "com.patloew.rxlocation:rxlocation:${rxlocationVersion}",
@@ -186,7 +189,7 @@ ext {
             circleImageView          : "de.hdodenhof:circleimageview:${circleImageViewVersion}",
             ahbottomnavigation       : "com.aurelhubert:ahbottomnavigation:${ahbottomnavigationVersion}",
 
-            firebaseAdmin         : "com.google.firebase:firebase-admin:6.3.0",
+            firebaseAdmin            : "com.google.firebase:firebase-admin:6.3.0",
             expandableLayout         : "com.github.aakira:expandable-layout:${expandableLayoutVersion}",
             rxjavaDebugPlugin        : "com.akaita.java:rxjava2-debug:${rxjavaDebugPluginVersion}",
             dexmaker                 : "com.crittercism.dexmaker:dexmaker:${dexmakerVersion}",

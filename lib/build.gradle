@@ -21,8 +21,10 @@ android {
 
 dependencies {
 
+    api lib.rxPreferences
     api lib.gson
-    api lib.chuck
+    debugApi lib.chuck
+    releaseApi lib.chuckNoOp
     api lib.timber
     api lib.dagger
     api lib.jsr305
