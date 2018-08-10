@@ -52,7 +52,7 @@ ext {
     rxAppStateVersion = '3.0.1'
     autoValueIgnoreVersion = '1.1.4'
     autoValueVersion = '1.5.2'
-    autoValueGsonVersion = '0.6.0'
+    autoValueGsonVersion = '0.8.0'
     autoValueWithVersion = '1.0.0'
     autoValueParcelVersion = '0.2.5'
     securePrefStoreVersion = '0.7.3'
