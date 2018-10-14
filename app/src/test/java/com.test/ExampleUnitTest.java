@@ -1,4 +1,4 @@
-package com.microstrategy.usher.external.lib;
+package com.test;
 
 import com.google.common.truth.Truth;
 
