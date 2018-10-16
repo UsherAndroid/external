@@ -82,9 +82,9 @@ dependencies {
     api "com.afollestad.material-dialogs:core:0.9.6.0"
     api "online.devliving:securedpreferencestore:0.7.4"
     api "io.reactivex.rxjava2:rxandroid:2.1.0"
-    //noinspection GradleDependency
     //please refer to here why 2.1.0 is not working.
     // https://github.com/square/okio/issues/516
+    //noinspection GradleDependency
     api "com.squareup.okio:okio:2.0.0"
 
     api "de.hdodenhof:circleimageview:2.2.0"
