@@ -12,7 +12,6 @@
   public *;
 }
 
--keepclassmembers enum com.microstrategy.usher.** { *; }
 
 -keepclassmembers class * implements android.os.Parcelable {
     static ** CREATOR;
@@ -93,7 +92,6 @@
 -keepclasseswithmembernames class * {
     @butterknife.* <methods>;
 }
-
 
 
 
