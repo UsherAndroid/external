@@ -1,0 +1,13 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+    }
+}
+
+dependencies {
+    api "org.altbeacon:android-beacon-library:2.15.1"
+}
