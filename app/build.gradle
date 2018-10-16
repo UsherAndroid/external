@@ -39,6 +39,6 @@ android {
 }
 
 dependencies {
-//    api project(':lib')
+    api project(':lib')
     testImplementation project(':test')
 }
