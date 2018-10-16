@@ -1,1 +1,7 @@
-include ':app', ':lib', ':test'
+include ':app'
+include ':fcm'
+include ':core'
+include ':test'
+include ':image'
+include ':beacon'
+include ':location'
