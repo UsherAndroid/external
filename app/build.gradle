@@ -40,5 +40,8 @@ android {
 
 dependencies {
     api project(':core')
+    api project(':fcm')
+    api project(':image')
+    api project(':location')
     testImplementation project(':test')
 }

@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+    }
+}
+
+dependencies {
+
+    api "com.google.firebase:firebase-messaging:17.3.3"
+    api "com.google.android.gms:play-services-gcm:16.0.0"
+
+    testImplementation project(':test')
+}
