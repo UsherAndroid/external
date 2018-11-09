@@ -11,6 +11,7 @@ android {
 dependencies {
 
 
+    //noinspection GradleCompatible
     api "com.android.support:appcompat-v7:28.0.0"
     api "com.android.support:preference-v7:28.0.0"
 
@@ -35,7 +36,7 @@ dependencies {
 
     //rxjava 2
     api "com.google.code.gson:gson:2.8.4"
-    api "io.reactivex.rxjava2:rxjava:2.2.2"
+    api "io.reactivex.rxjava2:rxjava:2.2.3"
 
     //fingerprint
     api "com.github.ajalt.reprint:core:3.2.1@aar"
@@ -53,7 +54,7 @@ dependencies {
 
     //jakewharton
     api "com.jakewharton.timber:timber:4.7.1"
-    api "com.jakewharton.rxrelay2:rxrelay:2.0.0"
+    api "com.jakewharton.rxrelay2:rxrelay:2.1.0"
     api "com.jakewharton.rx2:replaying-share:2.0.1"
     api "com.jakewharton.threetenabp:threetenabp:1.0.5"
 

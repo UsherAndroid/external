@@ -10,8 +10,8 @@ android {
 
 dependencies {
 
-    api "com.google.firebase:firebase-messaging:17.3.4"
-    api "com.google.android.gms:play-services-gcm:16.0.0"
-
-    testImplementation project(':test')
+    api project(':core')
+    api project(':fcm')
+    api project(':image')
+    api project(':location')
 }
