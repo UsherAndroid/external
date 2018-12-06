@@ -36,7 +36,7 @@ dependencies {
 
     //rxjava 2
     api "com.google.code.gson:gson:2.8.4"
-    api "io.reactivex.rxjava2:rxjava:2.2.3"
+    api "io.reactivex.rxjava2:rxjava:2.2.4"
 
     //fingerprint
     api "com.github.ajalt.reprint:core:3.2.1@aar"
@@ -48,9 +48,9 @@ dependencies {
     api "javax.annotation:javax.annotation-api:1.3.1"
 
     //retrofit2
-    api "com.squareup.retrofit2:retrofit:2.4.0"
-    api "com.squareup.retrofit2:converter-gson:2.4.0"
-    api "com.squareup.retrofit2:adapter-rxjava2:2.4.0"
+    api "com.squareup.retrofit2:retrofit:2.5.0"
+    api "com.squareup.retrofit2:converter-gson:2.5.0"
+    api "com.squareup.retrofit2:adapter-rxjava2:2.5.0"
 
     //jakewharton
     api "com.jakewharton.timber:timber:4.7.1"
@@ -59,8 +59,11 @@ dependencies {
     api "com.jakewharton.threetenabp:threetenabp:1.0.5"
 
     //okhttp3
+    //noinspection GradleDependency
     api "com.squareup.okhttp3:okhttp:3.11.0"
+    //noinspection GradleDependency
     api "com.squareup.okhttp3:logging-interceptor:3.11.0"
+    //noinspection GradleDependency
     api "com.squareup.okhttp3:okhttp-urlconnection:3.11.0"
 
 
@@ -70,7 +73,7 @@ dependencies {
 
 
     //dagger
-    api "com.google.dagger:dagger:2.17"
+    api "com.google.dagger:dagger:2.19"
 
 
 
