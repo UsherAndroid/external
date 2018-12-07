@@ -35,7 +35,7 @@ dependencies {
     api "com.jenzz.appstate:adapter-rxjava2:3.0.1"
 
     //rxjava 2
-    api "com.google.code.gson:gson:2.8.4"
+    api "com.google.code.gson:gson:2.8.5"
     api "io.reactivex.rxjava2:rxjava:2.2.4"
 
     //fingerprint
