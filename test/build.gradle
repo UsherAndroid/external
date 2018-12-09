@@ -2,7 +2,7 @@ apply plugin: 'java'
 dependencies {
     compile "junit:junit:4.12"
     compile "com.google.truth:truth:0.42"
-    compile "com.google.guava:guava:24.1-jre"
+    compile "com.google.guava:guava:27.0.1-jre"
     compile "commons-io:commons-io:2.6"
     compile "org.mockito:mockito-core:2.23.4"
     compile "org.assertj:assertj-core:3.11.1"
