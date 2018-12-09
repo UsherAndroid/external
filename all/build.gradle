@@ -22,4 +22,5 @@ dependencies {
     api project(':fcm')
     api project(':image')
     api project(':location')
+    api project(':beacon')
 }
