@@ -1,4 +1,4 @@
-include ':app'
+include ':app', ':mini', ':normal'
 include ':all'
 include ':fcm'
 include ':core'

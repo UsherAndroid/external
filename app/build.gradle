@@ -1,16 +1,7 @@
 apply plugin: 'com.android.application'
+apply from: '../sign.gradle'
 
 android {
-
-    signingConfigs {
-        tony_dev_sign {
-            keyAlias 'tony_dev_sign'
-            keyPassword 'tony_dev_sign'
-            storeFile file('tony_dev_sign.jks')
-            storePassword 'tony_dev_sign'
-        }
-    }
-
 
     compileSdkVersion 28
     defaultConfig {
@@ -23,18 +14,6 @@ android {
     compileOptions {
         sourceCompatibility 1.8
         targetCompatibility 1.8
-    }
-    buildTypes {
-        debug {
-            minifyEnabled false
-            signingConfig signingConfigs.tony_dev_sign
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-        release {
-            minifyEnabled true
-            signingConfig signingConfigs.tony_dev_sign
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
     }
 }
 
