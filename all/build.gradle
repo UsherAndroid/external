@@ -5,13 +5,12 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
-        consumerProguardFiles 'proguard-library-consumer.pro'
-        consumerProguardFiles 'okio.pro'
-        consumerProguardFiles 'gson.pro'
-        consumerProguardFiles 'net_security.pro'
-        consumerProguardFiles 'okhttp.pro'
-        consumerProguardFiles 'okio.pro'
-        consumerProguardFiles 'retrofit.pro'
+        consumerProguardFiles 'proguard/okio.pro'
+        consumerProguardFiles 'proguard/gson.pro'
+        consumerProguardFiles 'proguard/net_security.pro'
+        consumerProguardFiles 'proguard/okhttp.pro'
+        consumerProguardFiles 'proguard/okio.pro'
+        consumerProguardFiles 'proguard/retrofit.pro'
     }
 }
 
