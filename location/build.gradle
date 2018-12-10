@@ -5,7 +5,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
-        consumerProguardFiles 'beacon.pro'
+        consumerProguardFiles '../all/proguard/beacon.pro'
     }
 }
 

@@ -5,7 +5,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
-        consumerProguardFiles 'glide.pro'
+        consumerProguardFiles '../all/proguard/glide.pro'
     }
 }
 

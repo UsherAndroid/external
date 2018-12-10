@@ -12,6 +12,7 @@ android {
         consumerProguardFiles '../all/proguard/net_security.pro'
         consumerProguardFiles '../all/proguard/okhttp.pro'
         consumerProguardFiles '../all/proguard/okio.pro'
+        consumerProguardFiles '../all/proguard/glide.pro'
         consumerProguardFiles '../all/proguard/retrofit.pro'
 
     }

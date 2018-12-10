@@ -7,6 +7,8 @@ android {
         targetSdkVersion 28
         consumerProguardFiles 'proguard/okio.pro'
         consumerProguardFiles 'proguard/gson.pro'
+        consumerProguardFiles 'proguard/glide.pro'
+        consumerProguardFiles 'proguard/beacon.pro'
         consumerProguardFiles 'proguard/net_security.pro'
         consumerProguardFiles 'proguard/okhttp.pro'
         consumerProguardFiles 'proguard/okio.pro'
