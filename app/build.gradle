@@ -1,28 +1,23 @@
 apply plugin: 'com.android.application'
+apply from: '../sign.gradle'
 
 android {
-    compileSdkVersion 27
+
+    compileSdkVersion 28
     defaultConfig {
         applicationId "external.usher.microstrategy.com.usherandroidsdkexternallib"
         minSdkVersion 21
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
-    buildTypes {
-        debug {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
     }
 }
 
 dependencies {
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
-    implementation project(':lib')
+    api project(':badge')
+    testImplementation project(':test')
 }
