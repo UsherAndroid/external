@@ -37,7 +37,7 @@ dependencies {
     api "android.arch.lifecycle:common-java8:1.1.1"
     api "online.devliving:securedpreferencestore:0.7.4"
     api "com.google.android.gms:play-services-base:16.0.1"
-    api "com.github.UsherAndroid.chuck:library:1.2.6"
+    api "com.github.UsherAndroid.chuck:library:1.2.11"
     api "com.f2prateek.rx.preferences2:rx-preferences:2.0.0"
 
     //app state
@@ -91,7 +91,7 @@ dependencies {
 
 
     //beacon
-    api "org.altbeacon:android-beacon-library:2.15.2"
+    api "org.altbeacon:android-beacon-library:2.15.3"
 
     //fcm
     api "com.google.firebase:firebase-messaging:17.3.4"
@@ -104,7 +104,7 @@ dependencies {
     //location
     api "com.android.support:appcompat-v7:28.0.0"
     api "com.patloew.rxlocation:rxlocation:1.0.5"
-    api "org.altbeacon:android-beacon-library:2.15.2"
+    api "org.altbeacon:android-beacon-library:2.15.3"
     api "com.google.android.gms:play-services-maps:16.0.0"
     api "com.google.android.gms:play-services-location:16.0.0"
 }
