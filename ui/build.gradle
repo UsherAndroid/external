@@ -33,7 +33,7 @@ dependencies {
     api "com.github.kenglxn.QRGen:android:2.5.0"
     api "com.jakewharton.rxbinding2:rxbinding:2.2.0"
     api "com.theartofdev.edmodo:android-image-cropper:2.7.0"
-    api "com.github.TonyTangAndroid:android-autofittextview:0.2.3"
+    api "com.github.UsherAndroid:android-autofittextview:0.2.9"
     api "com.tolstykh.textviewrichdrawable:textview-rich-drawable:0.3.2"
 
 
