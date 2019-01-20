@@ -6,13 +6,13 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
 
-        consumerProguardFiles '../all/proguard/proguard-library-consumer.pro'
-        consumerProguardFiles '../all/proguard/okio.pro'
-        consumerProguardFiles '../all/proguard/gson.pro'
-        consumerProguardFiles '../all/proguard/net_security.pro'
-        consumerProguardFiles '../all/proguard/okhttp.pro'
-        consumerProguardFiles '../all/proguard/okio.pro'
-        consumerProguardFiles '../all/proguard/retrofit.pro'
+        consumerProguardFiles '../badge/proguard/proguard-library-consumer.pro'
+        consumerProguardFiles '../badge/proguard/okio.pro'
+        consumerProguardFiles '../badge/proguard/gson.pro'
+        consumerProguardFiles '../badge/proguard/net_security.pro'
+        consumerProguardFiles '../badge/proguard/okhttp.pro'
+        consumerProguardFiles '../badge/proguard/okio.pro'
+        consumerProguardFiles '../badge/proguard/retrofit.pro'
     }
 }
 
