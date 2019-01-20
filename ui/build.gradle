@@ -11,40 +11,40 @@ android {
 dependencies {
 
     //noinspection GradleDependency
-    api "com.xwray:groupie:2.1.0"
+    api 'com.xwray:groupie:2.1.0'
     //noinspection GradleCompatible
-    api "com.android.support:design:28.0.0"
-    api "com.android.support:support-v4:28.0.0"
-    api "com.android.support:cardview-v7:28.0.0"
-    api "com.android.support:appcompat-v7:28.0.0"
+    api 'com.android.support:design:28.0.0'
+    api 'com.android.support:support-v4:28.0.0'
+    api 'com.android.support:cardview-v7:28.0.0'
+    api 'com.android.support:appcompat-v7:28.0.0'
 
-    api "com.google.android.gms:play-services-drive:16.0.0"
-    api "com.google.android.gms:play-services-vision:17.0.2"
-    api "com.google.android.gms:play-services-oss-licenses:16.0.2"
-
-
-    api "com.android.support.constraint:constraint-layout:1.1.3"
-    api "com.github.TonyTangAndroid.barcodescanner:zxing:1.9.9.1"
-    api "com.github.TonyTangAndroid.barcodescanner:vision:1.9.9.1"
-    api "com.github.MstrUsherAndroid:Android-ItemTouchHelper-Demo:1.3"
+    api 'com.google.android.gms:play-services-drive:16.0.0'
+    api 'com.google.android.gms:play-services-vision:17.0.2'
+    api 'com.google.android.gms:play-services-oss-licenses:16.0.2'
 
 
-    api "com.github.kenglxn.QRGen:android:2.5.0"
-    api "com.jakewharton.rxbinding2:rxbinding:2.2.0"
-    api "com.theartofdev.edmodo:android-image-cropper:2.7.0"
-    api "com.tolstykh.textviewrichdrawable:textview-rich-drawable:0.3.2"
+    api 'com.android.support.constraint:constraint-layout:1.1.3'
+    api 'com.github.TonyTangAndroid.barcodescanner:zxing:1.9.9.1'
+    api 'com.github.TonyTangAndroid.barcodescanner:vision:1.9.9.1'
+    api 'com.github.MstrUsherAndroid:Android-ItemTouchHelper-Demo:1.3'
 
 
-    api "de.hdodenhof:circleimageview:2.2.0"
-    api "com.aurelhubert:ahbottomnavigation:2.2.0"
-    api "com.github.UsherAndroid:ExpandableLayout:1.6.23"
+    api 'com.github.kenglxn.QRGen:android:2.5.0'
+    api 'com.jakewharton.rxbinding2:rxbinding:2.2.0'
+    api 'com.theartofdev.edmodo:android-image-cropper:2.7.0'
+    api 'com.tolstykh.textviewrichdrawable:textview-rich-drawable:0.3.2'
 
 
-    api "com.github.tbruyelle:RxPermissions:0.10.2"
-    api "me.saket:better-link-movement-method:2.2.0"
-    api "com.afollestad.material-dialogs:core:0.9.6.0"
+    api 'de.hdodenhof:circleimageview:2.2.0'
+    api 'com.aurelhubert:ahbottomnavigation:2.2.0'
+    api 'com.github.UsherAndroid:ExpandableLayout:1.6.23'
+
+
+    api 'com.github.tbruyelle:RxPermissions:0.10.2'
+    api 'me.saket:better-link-movement-method:2.2.0'
+    api 'com.afollestad.material-dialogs:core:0.9.6.0'
 
     //It will break the 28.0.0 if you upgrade to 1.4.1
     //noinspection GradleDependency
-    api "com.evernote:android-state:1.3.1"
+    api 'com.evernote:android-state:1.3.1'
 }
