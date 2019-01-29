@@ -23,6 +23,8 @@ dependencies {
     api 'com.android.support:appcompat-v7:28.0.0'
     api 'com.android.support:preference-v7:28.0.0'
 
+    api 'com.google.dagger:dagger:2.21'
+
     //please refer to here why 2.1.0 is not working.
     // https://github.com/square/okio/issues/516
     //noinspection GradleDependency
@@ -36,6 +38,7 @@ dependencies {
     api 'com.google.android.gms:play-services-base:16.1.0'
     api 'com.github.UsherAndroid.chuck:library:1.2.13'
     api 'com.f2prateek.rx.preferences2:rx-preferences:2.0.0'
+
 
     //app state
     api 'com.jenzz.appstate:appstate:3.0.1'
@@ -65,7 +68,7 @@ dependencies {
     api 'com.jakewharton.timber:timber:4.7.1'
     api 'com.jakewharton.rxrelay2:rxrelay:2.1.0'
     api 'com.jakewharton.rx2:replaying-share:2.0.1'
-    api 'com.jakewharton.threetenabp:threetenabp:1.0.5'
+    api 'com.jakewharton.threetenabp:threetenabp:1.1.1'
 
     //okhttp3
     api 'com.squareup.okhttp3:okhttp:3.12.1'
