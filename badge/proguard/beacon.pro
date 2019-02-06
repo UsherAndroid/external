@@ -2,5 +2,6 @@
 
 #AltBeacon
 -dontwarn org.altbeacon.**
+-dontnote org.altbeacon.**
 -keep class org.altbeacon.** { *; }
 -keep interface org.altbeacon.** { *; }

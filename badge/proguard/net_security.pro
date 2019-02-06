@@ -1,1 +1,2 @@
 -keep class com.commonsware.cwac.netsecurity.** { *; }
+-dontnote com.commonsware.cwac.netsecurity.**

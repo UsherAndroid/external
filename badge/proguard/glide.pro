@@ -4,3 +4,4 @@
   **[] $VALUES;
   public *;
 }
+-dontnote com.bumptech.**
