@@ -69,7 +69,7 @@ dependencies {
     //jakewharton
     api 'com.jakewharton.timber:timber:4.7.1'
     api 'com.jakewharton.rxrelay2:rxrelay:2.1.0'
-    api 'com.jakewharton.rx2:replaying-share:2.0.1'
+    api 'com.jakewharton.rx2:replaying-share:2.1.0'
     api 'com.jakewharton.threetenabp:threetenabp:1.1.1'
 
     //okhttp3
