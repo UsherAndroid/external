@@ -83,7 +83,7 @@ dependencies {
     api 'com.google.android.gms:play-services-location:16.0.0'
 
     //beacon
-    api 'org.altbeacon:android-beacon-library:2.15.4'
+    api 'org.altbeacon:android-beacon-library:2.16.1'
 
     //fcm
     api 'com.google.firebase:firebase-messaging:17.3.4'
