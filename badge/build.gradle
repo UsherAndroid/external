@@ -32,7 +32,7 @@ dependencies {
     //noinspection GradleDependency
     api 'com.squareup.okio:okio:1.16.0'
 
-    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
     api 'com.commonsware.cwac:netsecurity:0.4.5'
     api 'net.grey-panther:natural-comparator:1.1'
     api 'android.arch.lifecycle:common-java8:1.1.1'
@@ -48,7 +48,7 @@ dependencies {
 
     //rxjava 2
     api 'com.google.code.gson:gson:2.8.5'
-    api 'io.reactivex.rxjava2:rxjava:2.2.4'
+    api 'io.reactivex.rxjava2:rxjava:2.2.6'
 
     //fingerprint
     //noinspection GradleDependency
@@ -69,7 +69,7 @@ dependencies {
     //jakewharton
     api 'com.jakewharton.timber:timber:4.7.1'
     api 'com.jakewharton.rxrelay2:rxrelay:2.1.0'
-    api 'com.jakewharton.rx2:replaying-share:2.0.1'
+    api 'com.jakewharton.rx2:replaying-share:2.1.0'
     api 'com.jakewharton.threetenabp:threetenabp:1.1.1'
 
     //okhttp3
@@ -83,15 +83,15 @@ dependencies {
     api 'com.google.android.gms:play-services-location:16.0.0'
 
     //beacon
-    api 'org.altbeacon:android-beacon-library:2.15.4'
+    api 'org.altbeacon:android-beacon-library:2.16.1'
 
     //fcm
-    api 'com.google.firebase:firebase-messaging:17.3.4'
-    api 'com.google.android.gms:play-services-gcm:16.0.0'
+    api 'com.google.firebase:firebase-messaging:17.4.0'
+    api 'com.google.android.gms:play-services-gcm:16.1.0'
 
     //location
     api 'com.android.support:appcompat-v7:28.0.0'
     api 'com.patloew.rxlocation:rxlocation:1.0.5'
-    api 'com.google.android.gms:play-services-maps:16.0.0'
+    api 'com.google.android.gms:play-services-maps:16.1.0'
     api 'com.google.android.gms:play-services-location:16.0.0'
 }
