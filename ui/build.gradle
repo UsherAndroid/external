@@ -23,8 +23,8 @@ dependencies {
     api 'com.google.android.gms:play-services-oss-licenses:16.0.2'
 
     api 'com.android.support.constraint:constraint-layout:1.1.3'
-    api 'com.github.UsherAndroid.barcodescanner:zxing:1.9.109'
-    api 'com.github.UsherAndroid.barcodescanner:vision:1.9.109'
+    api 'com.github.UsherAndroid.barcodescanner:zxing:1.9.113'
+    api 'com.github.UsherAndroid.barcodescanner:vision:1.9.113'
     api 'com.github.MstrUsherAndroid:Android-ItemTouchHelper-Demo:1.3'
 
     api 'com.github.kenglxn.QRGen:android:2.5.0'
