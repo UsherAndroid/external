@@ -20,12 +20,12 @@ dependencies {
 
 
     //noinspection GradleCompatible
-    api 'com.android.support:appcompat-v7:28.0.0'
-    api 'com.android.support:preference-v7:28.0.0'
+    api 'androidx.appcompat:appcompat:1.0.2'
+    api 'androidx.preference:preference:1.0.0'
 
     api 'com.google.dagger:dagger:2.21'
 
-    api 'com.github.bumptech.glide:glide:4.8.0'
+    api 'com.github.bumptech.glide:glide:4.9.0'
 
     //please refer to here why 2.1.0 is not working.
     // https://github.com/square/okio/issues/516
@@ -35,7 +35,7 @@ dependencies {
     api 'io.reactivex.rxjava2:rxandroid:2.1.1'
     api 'com.commonsware.cwac:netsecurity:0.4.5'
     api 'net.grey-panther:natural-comparator:1.1'
-    api 'android.arch.lifecycle:common-java8:1.1.1'
+    api 'androidx.lifecycle:lifecycle-common-java8:2.0.0'
     api 'online.devliving:securedpreferencestore:0.7.4'
     api 'com.google.android.gms:play-services-base:16.1.0'
     api 'com.github.UsherAndroid.chuck:library:1.2.17'
@@ -48,7 +48,7 @@ dependencies {
 
     //rxjava 2
     api 'com.google.code.gson:gson:2.8.5'
-    api 'io.reactivex.rxjava2:rxjava:2.2.6'
+    api 'io.reactivex.rxjava2:rxjava:2.2.7'
 
     //fingerprint
     //noinspection GradleDependency
@@ -86,11 +86,11 @@ dependencies {
     api 'org.altbeacon:android-beacon-library:2.16.1'
 
     //fcm
-    api 'com.google.firebase:firebase-messaging:17.4.0'
+    api 'com.google.firebase:firebase-messaging:17.5.0'
     api 'com.google.android.gms:play-services-gcm:16.1.0'
 
     //location
-    api 'com.android.support:appcompat-v7:28.0.0'
+    api 'androidx.appcompat:appcompat:1.0.2'
     api 'com.patloew.rxlocation:rxlocation:1.0.5'
     api 'com.google.android.gms:play-services-maps:16.1.0'
     api 'com.google.android.gms:play-services-location:16.0.0'
