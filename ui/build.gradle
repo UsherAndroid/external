@@ -17,7 +17,7 @@ dependencies {
     api 'com.google.android.material:material:1.0.0'
     api 'androidx.legacy:legacy-support-v4:1.0.0'
     api 'androidx.cardview:cardview:1.0.0'
-    api 'androidx.appcompat:appcompat:1.0.0'
+    api 'androidx.appcompat:appcompat:1.0.2'
 
     api 'com.google.android.gms:play-services-vision:17.0.2'
     api 'com.google.android.gms:play-services-oss-licenses:16.0.2'
@@ -42,7 +42,6 @@ dependencies {
     api 'me.saket:better-link-movement-method:2.2.0'
     api 'com.afollestad.material-dialogs:core:0.9.6.0'
 
-    //no androidx so far
     //noinspection GradleDependency
     api 'com.evernote:android-state:1.4.1'
 
