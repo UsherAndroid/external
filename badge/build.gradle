@@ -25,7 +25,7 @@ dependencies {
 
     api 'com.google.dagger:dagger:2.21'
 
-    api 'com.github.bumptech.glide:glide:4.8.0'
+    api 'com.github.bumptech.glide:glide:4.9.0'
 
     //please refer to here why 2.1.0 is not working.
     // https://github.com/square/okio/issues/516
@@ -48,7 +48,7 @@ dependencies {
 
     //rxjava 2
     api 'com.google.code.gson:gson:2.8.5'
-    api 'io.reactivex.rxjava2:rxjava:2.2.6'
+    api 'io.reactivex.rxjava2:rxjava:2.2.7'
 
     //fingerprint
     //noinspection GradleDependency
@@ -73,7 +73,7 @@ dependencies {
     api 'com.jakewharton.threetenabp:threetenabp:1.1.1'
 
     //okhttp3
-    api 'com.squareup.okhttp3:okhttp:3.12.1'
+    api 'com.squareup.okhttp3:okhttp:3.13.1'
     api 'com.squareup.okhttp3:logging-interceptor:3.12.1'
     //noinspection GradleDependency
     api 'com.squareup.okhttp3:okhttp-urlconnection:3.12.1'
@@ -86,7 +86,7 @@ dependencies {
     api 'org.altbeacon:android-beacon-library:2.16.1'
 
     //fcm
-    api 'com.google.firebase:firebase-messaging:17.4.0'
+    api 'com.google.firebase:firebase-messaging:17.5.0'
     api 'com.google.android.gms:play-services-gcm:16.1.0'
 
     //location

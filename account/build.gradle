@@ -36,7 +36,7 @@ dependencies {
 
     //rxjava 2
     api 'com.google.code.gson:gson:2.8.5'
-    api 'io.reactivex.rxjava2:rxjava:2.2.6'
+    api 'io.reactivex.rxjava2:rxjava:2.2.7'
 
     //fingerprint
     //noinspection GradleDependency
@@ -57,7 +57,7 @@ dependencies {
     api 'com.jakewharton.timber:timber:4.7.1'
 
     //okhttp
-    api 'com.squareup.okhttp3:okhttp:3.12.1'
+    api 'com.squareup.okhttp3:okhttp:3.13.1'
     api 'com.squareup.okhttp3:logging-interceptor:3.12.1'
 
     //guava
