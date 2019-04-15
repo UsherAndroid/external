@@ -38,7 +38,7 @@ dependencies {
     api 'androidx.lifecycle:lifecycle-common-java8:2.0.0'
     api 'online.devliving:securedpreferencestore:0.7.4'
     api 'com.google.android.gms:play-services-base:16.1.0'
-    api 'com.github.UsherAndroid.chuck:library:1.2.17'
+    api 'com.github.UsherAndroid.chuck:library:1.2.18'
     api 'com.f2prateek.rx.preferences2:rx-preferences:2.0.0'
 
 
