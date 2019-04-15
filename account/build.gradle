@@ -32,7 +32,7 @@ dependencies {
     api 'com.commonsware.cwac:netsecurity:0.4.5'
     api 'androidx.lifecycle:lifecycle-common-java8:2.0.0'
     api 'online.devliving:securedpreferencestore:0.7.4'
-    api 'com.github.UsherAndroid.chuck:library:1.2.17'
+    api 'com.github.UsherAndroid.chuck:library:1.2.18'
 
     //rxjava 2
     api 'com.google.code.gson:gson:2.8.5'
