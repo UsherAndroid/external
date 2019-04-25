@@ -64,5 +64,5 @@ dependencies {
     api 'com.google.guava:guava:27.0.1-android'
 
     //truetime android
-    api 'com.github.instacart.truetime-android:library-extension-rx:3.4'
+    api 'com.github.UsherAndroid.truetime-android:library-extension-rx:3.6'
 }
