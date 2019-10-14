@@ -73,10 +73,10 @@ dependencies {
     api 'com.jakewharton.threetenabp:threetenabp:1.1.1'
 
     //okhttp3
-    api 'com.squareup.okhttp3:okhttp:3.14.1'
-    api 'com.squareup.okhttp3:logging-interceptor:3.12.1'
+    api 'com.squareup.okhttp3:okhttp:4.2.1'
+    api 'com.squareup.okhttp3:logging-interceptor:4.2.1'
     //noinspection GradleDependency
-    api 'com.squareup.okhttp3:okhttp-urlconnection:3.12.1'
+    api 'com.squareup.okhttp3:okhttp-urlconnection:4.2.1'
 
     //location
     api 'com.patloew.rxlocation:rxlocation:1.0.5'
