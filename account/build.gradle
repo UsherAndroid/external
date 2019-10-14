@@ -61,7 +61,7 @@ dependencies {
     api 'com.squareup.okhttp3:logging-interceptor:3.12.1'
 
     //guava
-    api 'com.google.guava:guava:27.0.1-android'
+    api 'com.google.guava:guava:28.1-android'
 
     //truetime android
     api 'com.github.UsherAndroid.truetime-android:library-extension-rx:3.6'
